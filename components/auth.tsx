@@ -34,6 +34,8 @@ const Auth: React.FC = () => {
               src="/login-image.jpg" 
               alt="Login"
               className="w-full h-full object-cover"
+              width={100}
+              height={100}
             />
           </div>
         )}
@@ -113,6 +115,8 @@ const Auth: React.FC = () => {
               src="/register-image.jpg" 
               alt="Register"
               className="w-full h-full object-cover"
+              width={100}
+              height={100}
             />
           </div>
         )}

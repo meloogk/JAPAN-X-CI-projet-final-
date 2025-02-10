@@ -24,6 +24,8 @@ const Navbar = () => {
               src="/logo.png" 
               alt="Logo"
               className="w-14 h-14 rounded-full object-cover cursor-pointer"
+              width={100}
+              height={100}
             />
           </Link>
         </div>

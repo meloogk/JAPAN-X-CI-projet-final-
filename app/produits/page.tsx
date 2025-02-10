@@ -18,6 +18,8 @@ const ProductsPage = () => {
     : products;
 
   return (
+    
+  
     <div className="container mx-auto p-6 flex">
       {/* Sidebar des catégories */}
       <CategoryFilter onSelectCategory={setSelectedCategory} />

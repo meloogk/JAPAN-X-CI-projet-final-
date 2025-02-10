@@ -22,7 +22,7 @@ const ProductCard: React.FC<{ product: ProductProps }> = ({ product }) => {
 
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden p-4">
-      <Image src={product.image} alt={product.name} className="w-full h-64 object-cover" />
+      <Image src={product.image} alt={product.name} className="w-full h-64 object-cover"  width={100} height={100}/>
       <div className="p-4">
         <h3 className="text-lg font-semibold">{product.name}</h3>
         <p className="text-gray-600">{product.price}€</p>
